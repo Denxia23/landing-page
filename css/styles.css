@@ -169,7 +169,7 @@ button {
 .call-action {
     background-color: #3882F6;
     display: flex;
-    padding: 50px 0;
+    padding: 50px 20px;
     justify-content: space-around;
     width: 100%;
     border-radius: 10px;
