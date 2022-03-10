@@ -34,8 +34,6 @@ a {
     font-size: 18px;
 }
 
-
-
 /* Landing */
 
 .landing {
@@ -95,7 +93,6 @@ button {
     font-size: 19px;
 }
 
-
 /* Info section */
 
 .info-container {
@@ -105,12 +102,12 @@ button {
     margin-top: 50px;
 }
 
-.random-info {
+.information {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
-.random-info h2 {
+.information h2 {
     text-align: center;
     color: #1F2937;
     font-size: 36px;
@@ -122,6 +119,7 @@ button {
     font-weight: 300;
     font-size: 18px;
 }
+
 .image-box {
     width: 175px;
     height: 175px;
@@ -132,6 +130,32 @@ button {
 .info-card {
     text-align: center;
     width: 175px;
+}
+
+/* Quote section */
+
+.quote-container {
+    height: 350px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2% 28% 2%;
+}
+
+.quote-container h1 {
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.quote-container p {
+    align-self: flex-end;
+    font-size: 25px;
+    margin: 0;
 }
 
 /* Footer */
